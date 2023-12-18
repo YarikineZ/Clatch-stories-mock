@@ -1,0 +1,145 @@
+openapi: 3.0.3
+info:
+  title: Swagger Clatch - OpenAPI 3.0
+  version: 1.0.2
+externalDocs:
+  description: Find out more about Swagger
+  url: http://swagger.io
+paths:
+  /story:
+    get:
+      tags:
+        - story
+      summary: Fetch Story
+      operationId: fetchStory
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Story'
+        '400':
+          description: Invalid status value
+components:
+  schemas:
+    Story:
+      type: object
+      required:
+        - id
+        - progressBarColor
+        - statusBarColor
+        - preview
+        - storyScreens
+      properties:
+        id:
+          type: integer
+          description: Id истории для аналитики и статуса просмотрено
+        progressBarColor:
+          type: string
+          description: Цвет (формат hex) прогресс бара для Истории, крестика, 40% прозрачности для индикатора заполнения
+        statusBarColor:
+          type: string
+          example: light
+          enum:
+            - light
+            - dark
+        preview:
+          $ref: '#/components/schemas/StoryPreview'
+        storyScreens:
+          type: array
+          items:
+            $ref: '#/components/schemas/StoryScreen'
+        accessLevel:
+          type: string
+          example: allUsers
+          default: allUsers
+          enum:
+            - onlyClatchTeam
+            - allUsers
+    StoryPreview:
+      type: object
+      required:
+      - previewImageUrl
+      properties:
+        previewImageUrl:
+          type: string
+        previewText:
+          $ref: '#/components/schemas/StoryPreviewText'
+    StoryPreviewText:
+      type: object
+      properties:
+        textColor:
+          type: string
+        title:
+          type: string
+        subTitle:
+          type: string
+        sizeBetweenTitles:
+          type: number
+          format: double
+    StoryScreen:
+      type: object
+      required:
+        - imageUrl
+      properties:
+        imageUrl:
+          type: string
+        duration:
+          type: integer
+          default: 15
+        storyText:
+          $ref: '#/components/schemas/StoryText'
+        storyButton:
+          $ref: '#/components/schemas/StoryButton'
+    StoryText:
+      type: object
+      properties:
+        textColor:
+          type: string
+        title:
+          type: string
+        fontSizeTitle:
+          type: number
+          format: double
+        lineSpacingTitle:
+          type: number
+          format: double
+        subTitle:
+          type: string
+        fontSizeSubtitle:
+          type: number
+          format: double
+        lineSpacingSubtitle:
+          type: number
+          format: double
+        sizeBetweenTitles:
+          type: number
+          format: double
+        textPosition:
+           type: string
+           enum:
+            - top
+            - bottom
+        textAlign:
+          type: string
+          enum:
+            - left
+            - right
+            - center
+    StoryButton:
+      type: object
+      required:
+        - text
+        - url
+      properties:
+        text:
+          type: string
+        textColor:
+          type: string
+        buttonColor:
+          type: string
+        url:
+          type: string
