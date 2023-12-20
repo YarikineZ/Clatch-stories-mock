@@ -1,6 +1,6 @@
 openapi: 3.0.3
 info:
-  title: Swagger Clatch - OpenAPI 3.0
+  title: Swagger Clatch Story - OpenAPI 3.0
   version: 1.0.2
 externalDocs:
   description: Find out more about Swagger
@@ -11,7 +11,7 @@ paths:
       tags:
         - story
       summary: Fetch Story
-      operationId: fetchStory
+      operationId: fetchAllStory
       responses:
         '200':
           description: successful operation
@@ -27,6 +27,7 @@ components:
   schemas:
     Story:
       type: object
+      description: Класс [Story] для описания Истории.
       required:
         - id
         - progressBarColor
@@ -36,24 +37,28 @@ components:
       properties:
         id:
           type: integer
-          description: Id истории для аналитики и статуса просмотрено
+          description: Свойство для аналитики и статуса просмотрено.
         progressBarColor:
           type: string
-          description: Цвет (формат hex) прогресс бара для Истории, крестика, 40% прозрачности для индикатора заполнения
+          description: Цвет (формат hex) прогресс бара для Истории, крестика, 40% прозрачности для индикатора заполнения.
         statusBarColor:
           type: string
+          description: Цвет статус бара.
           example: light
           enum:
             - light
             - dark
         preview:
+          description: Превью истории.
           $ref: '#/components/schemas/StoryPreview'
         storyScreens:
           type: array
+          description: Экраны истории.
           items:
             $ref: '#/components/schemas/StoryScreen'
         accessLevel:
           type: string
+          description: Уровень доступа к опубликованной истории.
           example: allUsers
           default: allUsers
           enum:
@@ -61,85 +66,114 @@ components:
             - allUsers
     StoryPreview:
       type: object
+      description: Превью истории.
       required:
       - previewImageUrl
       properties:
         previewImageUrl:
+          description: Ссылка на картинку для превью (svg или png).
           type: string
         previewText:
+          description: Текст на превью истории.
           $ref: '#/components/schemas/StoryPreviewText'
     StoryPreviewText:
       type: object
+      description: Текст на превью истории.
       properties:
         textColor:
+          description: Цвет текста.
           type: string
         title:
+          description: Заголовок превью.
           type: string
         subTitle:
+          description: Подзаголовок превью.
           type: string
         sizeBetweenTitles:
+          description: Расстояние между заголовком и подзаголовком превью.
           type: number
           format: double
     StoryScreen:
       type: object
+      description: Экран истории.
       required:
         - imageUrl
       properties:
         imageUrl:
           type: string
+          description: Ссылка на изображение для экрана истории (svg или png).
         duration:
           type: integer
+          description: Количество секунд для отображения истории (по умолчанию 15 секунд).
           default: 15
         storyText:
+          description: Текст на истории.
           $ref: '#/components/schemas/StoryText'
         storyButton:
+          description: Кнопка на истории.
           $ref: '#/components/schemas/StoryButton'
     StoryText:
       type: object
+      description: Текст истории.
       properties:
         textColor:
           type: string
+          description: Цвет текста.
         title:
           type: string
+          description: Заголовок.
         fontSizeTitle:
           type: number
+          description: Размер шрифта заголовка.
           format: double
         lineSpacingTitle:
           type: number
+          description: Межстрочное расстояние заголовка.
           format: double
         subTitle:
           type: string
+          description: Подзаголовок.
         fontSizeSubtitle:
           type: number
+          description: Размер шрифта подзаголовка.
           format: double
         lineSpacingSubtitle:
           type: number
+          description: Межстрочное расстояние подзаголовка.
           format: double
         sizeBetweenTitles:
           type: number
+          description: Расстояние между заголовком и подзаголовком.
           format: double
         textPosition:
            type: string
+           description: Позиция текста относительно экрана (сверху, снизу).
            enum:
             - top
             - bottom
         textAlign:
           type: string
+          description: Выравнивание текста (левая граница, правая граница, центр).
           enum:
             - left
             - right
             - center
     StoryButton:
       type: object
+      description: Кнопка истории.
       required:
         - text
         - url
       properties:
         text:
+          description: Текст кнопки.
           type: string
         textColor:
+          description: Цвет текста кнопки.
           type: string
         buttonColor:
+          description: Цвет кнопки.
           type: string
         url:
+          description: Ссылка перехода при тапе на кнопку.
           type: string
