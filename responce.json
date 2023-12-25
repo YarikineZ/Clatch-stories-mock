@@ -1,120 +1,169 @@
-﻿  [
-    {
-      "id": 0,
-      "progressBarColor": "000000",
-      "statusBarColor": "light",
-      "preview": {
-        "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/story1.png",
-        "previewText": {
-          "textColor": "000000",
-          "title": "Полезная еда",
-          "subTitle": "Подзаголовок в четыре слова",
-          "sizeBetweenTitles": 0
-        }
-      },
-      "storyScreens": [
-        {
-          "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/story1screen1.svg",
-          "duration": 15,
-          "storyText": {
-            "textColor": "FFFFFF",
-            "title": "Экран с попугаями",
-            "fontSizeTitle": 0,
-            "lineSpacingTitle": 0,
-            "subTitle": "На самом деле попугаи нифига не милые",
-            "fontSizeSubtitle": 0,
-            "lineSpacingSubtitle": 0,
-            "sizeBetweenTitles": 0,
-            "textPosition": "top",
-            "textAlign": "center"
-          }
-        },
-        {
-          "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/story1screen2.svg",
-          "duration": 15,
-          "storyText": {
-            "textColor": "FFFFFF",
-            "title": "Экран без Subtitle, но с кнопой",
-            "fontSizeTitle": 0,
-            "lineSpacingTitle": 0,
-            "fontSizeSubtitle": 0,
-            "lineSpacingSubtitle": 0,
-            "sizeBetweenTitles": 0,
-            "textPosition": "top",
-            "textAlign": "left"
-          },
-          "storyButton": {
-            "text": "Кнопка",
-            "textColor": "000000",
-            "buttonColor": "FFFFFF",
-            "url": "https://www.youtube.com/watch?v=gke69PitnHk"
-          }
-        },
-        {
-          "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/story1screen3.svg",
-          "duration": 15,
-          "storyText": {
-            "textColor": "FFFFFF",
-            "title": "Много текста",
-            "subTitle": "Очень много текста, очень много текста, очень много текста, очень много текста, очень много текста, очень много текста, очень много текста, очень много текста, очень много текста, очень много текста",
-            "fontSizeTitle": 0,
-            "lineSpacingTitle": 0,
-            "fontSizeSubtitle": 0,
-            "lineSpacingSubtitle": 0,
-            "sizeBetweenTitles": 0,
-            "textPosition": "top",
-            "textAlign": "left"
-          },
-          "storyButton": {
-            "text": "Кнопка",
-            "textColor": "000000",
-            "buttonColor": "FFFFFF",
-            "url": "https://www.youtube.com/watch?v=gke69PitnHk"
-          }
-        }
-      ],
-      "accessLevel": "allUsers"
+﻿[
+  {
+    "id": 1,
+    "statusBarColor": "light",
+    "progressBarColor": "FFFFFF",
+    "preview": {
+      "previewImageUrl": "0-01",
+      "previewText": {
+        "textColor": "FFFFFF",
+        "title": "Заголовок",
+        "subTitle": "Подзаголовок",
+        "sizeBetweenTitles": 0
+      }
     },
-    {
-      "id": 0,
-      "progressBarColor": "000000",
-      "statusBarColor": "light",
-      "preview": {
-        "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/story2.png",
-        "previewText": {
-          "textColor": "000000",
-          "title": "Полезная еда",
-          "sizeBetweenTitles": 0
+    "storyScreens": [
+      {
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/story1screen3.svg",
+        "duration": 15,
+        "storyText": {
+          "textColor": "FFFFFF",
+          "title": "Lorem Ipsum",
+          "subTitle": "Это текст - рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбойдля текстов на латинице с начала XVI века.",
+          "fontSizeTitle": 14,
+          "lineSpacingTitle": 0,
+          "fontSizeSubtitle": 10,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "top",
+          "textAlign": "center"
+        },
+        "storyButton": {
+          "text": "Кнопка",
+          "textColor": "FFFFF",
+          "buttonColor": "000000",
+          "url": "https://www.youtube.com/watch?v=gke69PitnHk"
+        }
+      }
+    ],
+    "accessLevel": "allUsers"
+  },
+  {
+    "id": 2,
+    "statusBarColor": "light",
+    "progressBarColor": "FF6C0F",
+    "preview": {
+      "previewImageUrl": "0-02",
+      "previewText": {
+        "textColor": "FF6C0F",
+        "title": "ЗаголовокЗаголовок",
+        "subTitle": "ПодзаголовокПодзаголовок",
+        "sizeBetweenTitles": 1
+      }
+    },
+    "storyScreens": [
+      {
+        "imageUrl": "0-02-1",
+        "duration": 20,
+        "storyText": {
+          "textColor": "FF6C0F",
+          "title": "Почему он используется?",
+          "fontSizeTitle": 16,
+          "lineSpacingTitle": 0,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "top",
+          "textAlign": "middle"
+        },
+        "storyButton": {
+          "text": "Кнопка",
+          "textColor": "FF6C0F",
+          "buttonColor": "FFFFFF",
+          "url": "https://www.youtube.com/watch?v=gke69PitnHk"
         }
       },
-      "storyScreens": [
-        {
-          "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/story2screen1.svg",
-          "duration": 15,
-          "storyText": {
-            "textColor": "000000",
-            "title": "Тексты справа",
-            "subTitle": "В этом экране нет параметров с размерами",
-            "textPosition": "top",
-            "textAlign": "right"
-          }
-        },
-        {
-          "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/story2screen2.svg",
-          "duration": 15,
-          "storyText": {
-            "textColor": "FFFFFF",
-            "title": "Все еще текст справа, размеры текстов по нулям",
-            "fontSizeTitle": 0,
-            "lineSpacingTitle": 0,
-            "fontSizeSubtitle": 0,
-            "lineSpacingSubtitle": 0,
-            "sizeBetweenTitles": 0,
-            "textPosition": "top",
-            "textAlign": "right"
-          }
+      {
+        "imageUrl": "0-02-2",
+        "duration": 25,
+        "storyText": {
+          "textColor": "FF6C0F",
+          "title": "Почему он используется?Почему он используется?Почему он используется?",
+          "subTitle": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.. ",
+          "fontSizeTitle": 18,
+          "lineSpacingTitle": 0,
+          "fontSizeSubtitle": 12,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "top",
+          "textAlign": "right"
         }
-      ],
-      "accessLevel": "allUsers"
-    }
-  ]
+      }
+    ],
+    "accessLevel": "allUsers"
+  },
+  {
+    "id": 3,
+    "statusBarColor": "dark",
+    "progressBarColor": "000000",
+    "preview": {
+      "previewImageUrl": "0-03",
+      "previewText": {
+        "textColor": "000000",
+        "title": "ЗаголовокЗаголовокЗаголовок",
+        "subTitle": "ПодзаголовокПодзаголовокПодзаголовокПодзаголовокПодзаголовокПодзаголовок",
+        "sizeBetweenTitles": 2
+      }
+    },
+    "storyScreens": [
+      {
+        "imageUrl": "0-03-1",
+        "duration": 30,
+        "storyText": {
+          "textColor": "000000",
+          "title": "Почему он используется?Почему он используется?Почему он используется?Почему он используется?",
+          "subTitle": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.. Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам lorem ipsum сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).",
+          "fontSizeTitle": 20,
+          "lineSpacingTitle": 0,
+          "fontSizeSubtitle": 14,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "bottom",
+          "textAlign": "left"
+        },
+        "storyButton": {
+          "text": "Кнопка",
+          "textColor": "000000",
+          "buttonColor": "FFFFFF",
+          "url": "https://www.youtube.com/watch?v=gke69PitnHk"
+        }
+      },
+      {
+        "imageUrl": "0-03-2",
+        "duration": 35,
+        "storyText": {
+          "textColor": "00000",
+          "title": "Экран без Subtitle, но с кнопой",
+          "subTitle": "Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, consectetur, и занялся его поисками в классической латинской литературе. В результате он нашёл неоспоримый первоисточник Lorem Ipsum в разделах 1.10.32 и 1.10.33 книги de Finibus Bonorum et Malorum (О пределах добра и зла), написанной Цицероном в 45 году н.э. Этот трактат по теории этики был очень популярен в эпоху Возрождения. Первая строка Lorem Ipsum, Lorem ipsum dolor sit amet.., происходит от одной из строк в разделе 1.10.32 Классический текст Lorem Ipsum, используемый с XVI века, приведён ниже. Также даны разделы 1.10.32 и 1.10.33 de Finibus Bonorum et Malorum Цицерона и их английский перевод, сделанный H. Rackham, 1914 год.",
+          "fontSizeTitle": 24,
+          "lineSpacingTitle": 0,
+          "fontSizeSubtitle": 18,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "bottom",
+          "textAlign": "right"
+        }
+      },
+      {
+        "imageUrl": "0-03-3",
+        "duration": 45,
+        "storyText": {
+          "textColor": "00000",
+          "title": "Lorem Ipsum - это текст - рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов  Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.",
+          "fontSizeTitle": 12,
+          "lineSpacingTitle": 0,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "top",
+          "textAlign": "left"
+        },
+        "storyButton": {
+          "text": "Кнопка",
+          "textColor": "000000",
+          "buttonColor": "FFFFFF",
+          "url": "https://www.youtube.com/watch?v=gke69PitnHk"
+        }
+      }
+    ],
+    "accessLevel": "allUsers"
+  }
+]
