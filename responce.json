@@ -4,7 +4,7 @@
     "statusBarColor": "light",
     "progressBarColor": "FFFFFF",
     "preview": {
-      "previewImageUrl": "0-01",
+      "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case0preview1.png",
       "previewText": {
         "textColor": "FFFFFF",
         "title": "Заголовок",
@@ -14,7 +14,7 @@
     },
     "storyScreens": [
       {
-        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/story1screen3.svg",
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case01screen1.svg",
         "duration": 15,
         "storyText": {
           "textColor": "FFFFFF",
@@ -43,7 +43,7 @@
     "statusBarColor": "light",
     "progressBarColor": "FF6C0F",
     "preview": {
-      "previewImageUrl": "0-02",
+      "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case0preview2.png",
       "previewText": {
         "textColor": "FF6C0F",
         "title": "ЗаголовокЗаголовок",
@@ -53,7 +53,7 @@
     },
     "storyScreens": [
       {
-        "imageUrl": "0-02-1",
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case02screen1.svg",
         "duration": 20,
         "storyText": {
           "textColor": "FF6C0F",
@@ -73,7 +73,7 @@
         }
       },
       {
-        "imageUrl": "0-02-2",
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case02screen2.svg",
         "duration": 25,
         "storyText": {
           "textColor": "FF6C0F",
@@ -96,7 +96,7 @@
     "statusBarColor": "dark",
     "progressBarColor": "000000",
     "preview": {
-      "previewImageUrl": "0-03",
+      "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case0preview3.png",
       "previewText": {
         "textColor": "000000",
         "title": "ЗаголовокЗаголовокЗаголовок",
@@ -106,7 +106,7 @@
     },
     "storyScreens": [
       {
-        "imageUrl": "0-03-1",
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case03screen1.svg",
         "duration": 30,
         "storyText": {
           "textColor": "000000",
@@ -128,7 +128,7 @@
         }
       },
       {
-        "imageUrl": "0-03-2",
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case03screen2.svg",
         "duration": 35,
         "storyText": {
           "textColor": "00000",
@@ -144,7 +144,7 @@
         }
       },
       {
-        "imageUrl": "0-03-3",
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case03screen3.svg",
         "duration": 45,
         "storyText": {
           "textColor": "00000",
