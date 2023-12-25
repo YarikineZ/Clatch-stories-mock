@@ -93,7 +93,7 @@
   },
   {
     "id": 3,
-    "statusBarColor": "dark",
+    "statusBarColor": "light",
     "progressBarColor": "000000",
     "preview": {
       "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case0preview3.png",
