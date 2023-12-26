@@ -1,7 +1,7 @@
 ﻿[
   {
     "id": 1,
-    "statusBarColor": "light",
+    "statusBarColor": "dark",
     "progressBarColor": "FFFFFF",
     "preview": {
       "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case0preview1.png",
@@ -63,7 +63,7 @@
           "lineSpacingSubtitle": 0,
           "sizeBetweenTitles": 0,
           "textPosition": "top",
-          "textAlign": "middle"
+          "textAlign": "center"
         },
         "storyButton": {
           "text": "Кнопка",
