@@ -1,21 +1,19 @@
-﻿from fastapi import FastAPI, Response
+﻿from fastapi import FastAPI
+from pydantic import BaseModel
+from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
+from sqlalchemy.orm import relationship
+from sqlalchemy.ext.declarative import declarative_base
+from models.story_model import StoryRead, StoryCreate
 
-# http://127.0.0.1:8000/docs
-# uvicorn main:app --reload
+
+
 
 app = FastAPI()
 
+@app.post("/story/")
+def create_story(story: StoryCreate):
+    pass  # Здесь должен быть код для сохранения пользователя и адреса в базу данных
 
-@app.get("/story/")
-def get_legacy_data():
-    try:
-      read_file = open("responce.json", "r")
-      data = read_file.read()
-      read_file.close ()
-
-    except FileNotFoundError:
-      read_file = open("app/responce.json", "r")
-      data = read_file.read()
-      read_file.close()
-
-    return Response(content=data, media_type="application/json")
+@app.get("/story/{user_id}", response_model=StoryRead)
+def read_story(user_id: int):
+    pass  # Здесь должен быть код для чтения пользователя и его адреса из базы данных
