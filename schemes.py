@@ -8,17 +8,16 @@ class AccessLevel(str, Enum):
     allUsers = "allUsers"
 
 
-class PreviewText(BaseModel):
-    #TODO Вынести все в отдельный файл schemes
+class StoryPreviewText(BaseModel):
     textColor: Optional[str]
     title: Optional[str]
-    subtitle: Optional[str]
+    subTitle: Optional[str]
     sizeBetweenTitles: Optional[float]
 
 
-class Preview(BaseModel):
+class StoryPreview(BaseModel):
     previewImageUrl: str
-    previewText: Optional[PreviewText]
+    previewText: Optional[StoryPreviewText]
 
 
 class StoryTextBase(BaseModel):
@@ -29,7 +28,7 @@ class StoryTextBase(BaseModel):
     subTitle: Optional[str]
     fontSizeSubtitle: Optional[float]
     lineSpacingSubtitle: Optional[float]
-    sizeBetweenTitle: Optional[float]
+    sizeBetweenTitles: Optional[float]
     textPosition: Optional[str]
     textAlign: Optional[str]
 
@@ -53,7 +52,7 @@ class StoryBase(BaseModel):
     statusBarColor: str
     accessLevel: Optional[AccessLevel]
     storyScreens: List[StoryScreen]
-    preview: Preview
+    preview: StoryPreview
 
 
 class StoryCreate(StoryBase):
