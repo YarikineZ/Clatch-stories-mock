@@ -1,169 +1,668 @@
 ﻿[
   {
     "id": 1,
-    "statusBarColor": "dark",
-    "progressBarColor": "FFFFFF",
-    "preview": {
-      "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case0preview1.png",
-      "previewText": {
-        "textColor": "FFFFFF",
-        "title": "Заголовок",
-        "subTitle": "Подзаголовок",
-        "sizeBetweenTitles": 0
-      }
-    },
-    "storyScreens": [
-      {
-        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case01screen1.svg",
-        "duration": 15,
-        "storyText": {
-          "textColor": "FFFFFF",
-          "title": "Lorem Ipsum",
-          "subTitle": "Это текст - рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбойдля текстов на латинице с начала XVI века.",
-          "fontSizeTitle": 14,
-          "lineSpacingTitle": 0,
-          "fontSizeSubtitle": 10,
-          "lineSpacingSubtitle": 0,
-          "sizeBetweenTitles": 0,
-          "textPosition": "top",
-          "textAlign": "center"
-        },
-        "storyButton": {
-          "text": "Кнопка",
-          "textColor": "FFFFF",
-          "buttonColor": "000000",
-          "url": "https://www.youtube.com/watch?v=gke69PitnHk"
-        }
-      }
-    ],
-    "accessLevel": "allUsers"
-  },
-  {
-    "id": 2,
-    "statusBarColor": "light",
-    "progressBarColor": "FF6C0F",
-    "preview": {
-      "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case0preview2.png",
-      "previewText": {
-        "textColor": "FF6C0F",
-        "title": "ЗаголовокЗаголовок",
-        "subTitle": "ПодзаголовокПодзаголовок",
-        "sizeBetweenTitles": 1
-      }
-    },
-    "storyScreens": [
-      {
-        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case02screen1.svg",
-        "duration": 20,
-        "storyText": {
-          "textColor": "FF6C0F",
-          "title": "Почему он используется?",
-          "fontSizeTitle": 16,
-          "lineSpacingTitle": 0,
-          "lineSpacingSubtitle": 0,
-          "sizeBetweenTitles": 0,
-          "textPosition": "top",
-          "textAlign": "center"
-        },
-        "storyButton": {
-          "text": "Кнопка",
-          "textColor": "FF6C0F",
-          "buttonColor": "FFFFFF",
-          "url": "https://www.youtube.com/watch?v=gke69PitnHk"
-        }
-      },
-      {
-        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case02screen2.svg",
-        "duration": 25,
-        "storyText": {
-          "textColor": "FF6C0F",
-          "title": "Почему он используется?Почему он используется?Почему он используется?",
-          "subTitle": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.. ",
-          "fontSizeTitle": 18,
-          "lineSpacingTitle": 0,
-          "fontSizeSubtitle": 12,
-          "lineSpacingSubtitle": 0,
-          "sizeBetweenTitles": 0,
-          "textPosition": "top",
-          "textAlign": "right"
-        }
-      }
-    ],
-    "accessLevel": "allUsers"
-  },
-  {
-    "id": 3,
-    "statusBarColor": "light",
     "progressBarColor": "000000",
+    "statusBarColor": "light",
     "preview": {
-      "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case0preview3.png",
+      "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-5.svg",
       "previewText": {
         "textColor": "000000",
-        "title": "ЗаголовокЗаголовокЗаголовок",
-        "subTitle": "ПодзаголовокПодзаголовокПодзаголовокПодзаголовокПодзаголовокПодзаголовок",
-        "sizeBetweenTitles": 2
+        "title": "Заголовок"
       }
     },
     "storyScreens": [
       {
-        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case03screen1.svg",
-        "duration": 30,
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+        "duration": 15,
         "storyText": {
-          "textColor": "000000",
-          "title": "Почему он используется?Почему он используется?Почему он используется?Почему он используется?",
-          "subTitle": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.. Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам lorem ipsum сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).",
-          "fontSizeTitle": 20,
+          "textColor": "",
+          "title": "",
+          "fontSizeTitle": 0,
           "lineSpacingTitle": 0,
-          "fontSizeSubtitle": 14,
-          "lineSpacingSubtitle": 0,
-          "sizeBetweenTitles": 0,
-          "textPosition": "bottom",
-          "textAlign": "left"
-        },
-        "storyButton": {
-          "text": "Кнопка",
-          "textColor": "000000",
-          "buttonColor": "FFFFFF",
-          "url": "https://www.youtube.com/watch?v=gke69PitnHk"
-        }
-      },
-      {
-        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case03screen2.svg",
-        "duration": 35,
-        "storyText": {
-          "textColor": "00000",
-          "title": "Экран без Subtitle, но с кнопой",
-          "subTitle": "Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, consectetur, и занялся его поисками в классической латинской литературе. В результате он нашёл неоспоримый первоисточник Lorem Ipsum в разделах 1.10.32 и 1.10.33 книги de Finibus Bonorum et Malorum (О пределах добра и зла), написанной Цицероном в 45 году н.э. Этот трактат по теории этики был очень популярен в эпоху Возрождения. Первая строка Lorem Ipsum, Lorem ipsum dolor sit amet.., происходит от одной из строк в разделе 1.10.32 Классический текст Lorem Ipsum, используемый с XVI века, приведён ниже. Также даны разделы 1.10.32 и 1.10.33 de Finibus Bonorum et Malorum Цицерона и их английский перевод, сделанный H. Rackham, 1914 год.",
-          "fontSizeTitle": 24,
-          "lineSpacingTitle": 0,
-          "fontSizeSubtitle": 18,
-          "lineSpacingSubtitle": 0,
-          "sizeBetweenTitles": 0,
-          "textPosition": "bottom",
-          "textAlign": "right"
-        }
-      },
-      {
-        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/case03screen3.svg",
-        "duration": 45,
-        "storyText": {
-          "textColor": "00000",
-          "title": "Lorem Ipsum - это текст - рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов  Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.",
-          "fontSizeTitle": 12,
-          "lineSpacingTitle": 0,
+          "subTitle": "",
+          "fontSizeSubtitle": 0,
           "lineSpacingSubtitle": 0,
           "sizeBetweenTitles": 0,
           "textPosition": "top",
           "textAlign": "left"
-        },
-        "storyButton": {
-          "text": "Кнопка",
-          "textColor": "000000",
-          "buttonColor": "FFFFFF",
-          "url": "https://www.youtube.com/watch?v=gke69PitnHk"
         }
       }
     ],
     "accessLevel": "allUsers"
-  }
-]
+  },
+ {
+  "id": 2,
+  "progressBarColor": "FFFFFF",
+  "statusBarColor": "dark",
+  "preview": {
+    "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-5.svg",
+    "previewText": {
+      "textColor": "FFFFFF",
+      "title": "ЗаголовокЗаголовокЗаголовокЗаголовокЗаголовокЗаголовокЗаголовокЗаголовокЗаголовокЗаголовокЗаголовокЗаголовокЗаголовок"
+    }
+  },
+  "storyScreens": [
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "",
+        "title": "",
+        "fontSizeTitle": 0,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 0,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "left"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "",
+        "title": "",
+        "fontSizeTitle": 0,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 0,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "left"
+      }
+    }
+  ],
+  "accessLevel": "allUsers"
+ },
+ {
+  "id": 3,
+  "progressBarColor": "FF00FF",
+  "statusBarColor": "dark",
+  "preview": {
+    "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-5.svg",
+    "previewText": {
+      "textColor": "FF00FF",
+      "title": "Заголовок"
+    }
+  },
+  "storyScreens": [
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "",
+        "title": "",
+        "fontSizeTitle": 0,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 0,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "left"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "",
+        "title": "",
+        "fontSizeTitle": 0,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 0,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "left"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "",
+        "title": "",
+        "fontSizeTitle": 0,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 0,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "left"
+      }
+    }
+  ],
+  "accessLevel": "allUsers"
+ },
+ {
+  "id": 4,
+  "progressBarColor": "FF0000",
+  "statusBarColor": "light",
+  "preview": {
+    "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-5.svg",
+    "previewText": {
+      "textColor": "FF0000",
+      "title": ""
+    }
+  },
+  "storyScreens": [
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "",
+        "title": "",
+        "fontSizeTitle": 0,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 0,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "left"
+      },
+      "storyButton": {
+        "text": "",
+        "textColor": "",
+        "buttonColor": "",
+        "url": ""
+      }
+    }
+  ],
+  "accessLevel": "allUsers"
+ },
+ {
+  "id": 5,
+  "progressBarColor": "FFFF00",
+  "statusBarColor": "dark",
+  "preview": {
+    "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-5.svg",
+    "previewText": {
+      "textColor": "FFFF00",
+      "title": ""
+    }
+  },
+  "storyScreens": [
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "",
+        "title": "",
+        "fontSizeTitle": 0,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 0,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "left"
+      },
+      "storyButton": {
+        "text": "string",
+        "textColor": "string",
+        "buttonColor": "string",
+        "url": "string"
+      }
+    }
+  ],
+  "accessLevel": "allUsers"
+ },
+ {
+  "id": 6,
+  "progressBarColor": "008000",
+  "statusBarColor": "light",
+  "preview": {
+    "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_6.png",
+    "previewText": {
+      "textColor": "008000",
+      "title": ""
+    }
+  },
+  "storyScreens": [
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "",
+        "title": "",
+        "fontSizeTitle": 0,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 0,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "left"
+      },
+      "storyButton": {
+        "text": "",
+        "textColor": "",
+        "buttonColor": "",
+        "url": ""
+      }
+    }
+  ],
+  "accessLevel": "allUsers"
+ },
+ {
+  "id": 7,
+  "progressBarColor": "00FFFF",
+  "statusBarColor": "dark",
+  "preview": {
+    "previewImageUrl": "",
+    "previewText": {
+      "textColor": "00FFFF",
+      "title": "",
+      "subTitle": "",
+      "sizeBetweenTitles": 0
+    }
+  },
+  "storyScreens": [
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "",
+        "title": "",
+        "fontSizeTitle": 0,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 0,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "left"
+      },
+      "storyButton": {
+        "text": "",
+        "textColor": "",
+        "buttonColor": "",
+        "url": ""
+      }
+    }
+  ],
+  "accessLevel": "allUsers"
+ },
+ {
+  "id": 8,
+  "progressBarColor": "800000",
+  "statusBarColor": "dark",
+  "preview": {
+    "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_8(png(no_back)).png",
+    "previewText": {
+      "textColor": "800000",
+      "title": "",
+      "subTitle": "",
+      "sizeBetweenTitles": 0
+    }
+  },
+  "storyScreens": [
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "",
+        "title": "",
+        "fontSizeTitle": 0,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 0,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "left"
+      },
+      "storyButton": {
+        "text": "",
+        "textColor": "",
+        "buttonColor": "",
+        "url": ""
+      }
+    }
+  ],
+  "accessLevel": "allUsers"
+ },
+ {
+  "id": 9,
+  "progressBarColor": "0000FF",
+  "statusBarColor": "light",
+  "preview": {
+    "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_9(jpg).jpg",
+    "previewText": {
+      "textColor": "0000FF",
+      "title": "",
+      "subTitle": "",
+      "sizeBetweenTitles": 0
+    }
+  },
+  "storyScreens": [
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "000000",
+        "title": "ЗLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non vulputate arcu. Nulla ante eros, egestas non nulla eget, volutpat dapibus nisl. Donec sit amet viverra lacus, vitae ornare risus.",
+        "fontSizeTitle": 12,
+        "lineSpacingTitle": 0,
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non vulputate arcu. Nulla ante eros, egestas non nulla eget, volutpat dapibus nisl. Donec sit amet viverra lacus, vitae ornare risus.",
+        "fontSizeSubtitle": 12,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "center"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "000000",
+        "title": "sLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non vulputate arcu. Nulla ante eros, egestas non nulla eget, volutpat dapibus nisl. Donec sit amet viverra lacus, vitae ornare risus.",
+        "fontSizeTitle": 12,
+        "lineSpacingTitle": 0,
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacus dui, faucibus ac mauris et, vestibulum ullamcorper massa. Aenean mauris lacus, pharetra in tellus quis, interdum imperdiet nunc. Aenean interdum sem a est mattis, ut molestie ligula varius. In tellus risus, dapibus vitae dolor id, aliquet imperdiet lacus. Mauris facilisis nibh velit, vel molestie arcu condimentum sodales. Morbi scelerisque ut felis ut dapibus. Ut ut volutpat augue, eget maximus risus. Mauris at auctor ante. Cras varius varius ullamcorper. Ut in pulvinar arcu. Aliquam congue velit nec magna dapibus, et tempor massa ornare. Suspendisse potenti. Maecenas vitae ipsum quis nulla condimentum.",
+        "fontSizeSubtitle": 36,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "center"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "000000",
+        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non vulputate arcu. Nulla ante eros, egestas non nulla eget, volutpat dapibus nisl. Donec sit amet viverra lacus, vitae ornare risus.",
+        "fontSizeTitle": 36,
+        "lineSpacingTitle": 0,
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacus dui, faucibus ac mauris et, vestibulum ullamcorper massa. Aenean mauris lacus, pharetra in tellus quis, interdum imperdiet nunc. Aenean interdum sem a est mattis, ut molestie ligula varius. In tellus risus, dapibus vitae dolor id, aliquet imperdiet lacus. Mauris facilisis nibh velit, vel molestie arcu condimentum sodales. Morbi scelerisque ut felis ut dapibus. Ut ut volutpat augue, eget maximus risus. Mauris at auctor ante. Cras varius varius ullamcorper. Ut in pulvinar arcu. Aliquam congue velit nec magna dapibus, et tempor massa ornare. Suspendisse potenti. Maecenas vitae ipsum quis nulla condimentum.",
+        "fontSizeSubtitle": 36,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "center"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "000000",
+        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacus dui, faucibus ac mauris et, vestibulum ullamcorper massa. Aenean mauris lacus, pharetra in tellus quis, interdum imperdiet nunc. Aenean interdum sem a est mattis, ut molestie ligula varius. In tellus risus, dapibus vitae dolor id, aliquet imperdiet lacus. Mauris facilisis nibh velit, vel molestie arcu condimentum sodales. Morbi scelerisque ut felis ut dapibus. Ut ut volutpat augue, eget maximus risus. Mauris at auctor ante. Cras varius varius ullamcorper. Ut in pulvinar arcu. Aliquam congue velit nec magna dapibus, et tempor massa ornare. Suspendisse potenti. Maecenas vitae ipsum quis nulla condimentum.",
+        "fontSizeTitle": 36,
+        "lineSpacingTitle": 0,
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non vulputate arcu. Nulla ante eros, egestas non nulla eget, volutpat dapibus nisl. Donec sit amet viverra lacus, vitae ornare risus.",
+        "fontSizeSubtitle": 12,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "accessLevel": "allUsers"
+ },
+ {
+  "id": 10,
+  "progressBarColor": "000080",
+  "statusBarColor": "light",
+  "preview": {
+    "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10(GIF).gif",
+    "previewText": {
+      "textColor": "000080",
+      "title": "",
+      "subTitle": "",
+      "sizeBetweenTitles": 0
+    }
+  },
+  "storyScreens": [
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
+      "duration": 5,
+      "storyText": {
+        "textColor": "",
+        "title": "",
+        "fontSizeTitle": 0,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 0,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "left"
+      },
+      "storyButton": {
+        "text": "Кнопка",
+        "textColor": "000080",
+        "buttonColor": "FFFFFF",
+        "url": ""
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
+      "duration": 10,
+      "storyText": {
+        "textColor": "FFFFFF",
+        "title": "Заголовок",
+        "fontSizeTitle": 0,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 0,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "left"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
+      "duration": 15,
+      "storyText": {
+        "textColor": "FF00FF",
+        "title": "Заголовк",
+        "fontSizeTitle": 12,
+        "lineSpacingTitle": 0,
+        "subTitle": "Подзаголовок",
+        "fontSizeSubtitle": 10,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "left"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
+      "duration": 20,
+      "storyText": {
+        "textColor": "FF0000",
+        "title": "",
+        "fontSizeTitle": 12,
+        "lineSpacingTitle": 0,
+        "subTitle": "Подзаголовок",
+        "fontSizeSubtitle": 10,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "center"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
+      "duration": 25,
+      "storyText": {
+        "textColor": "FFFF00",
+        "title": "Заголовок",
+        "fontSizeTitle": 12,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 10,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "bottom",
+        "textAlign": "center"
+      },
+      "storyButton": {
+        "text": "",
+        "textColor": "",
+        "buttonColor": "000000",
+        "url": ""
+      }
+    },
+    {
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
+        "duration": 30,
+      "storyText": {
+        "textColor": "008000",
+        "title": "Заголовок",
+        "fontSizeTitle": 12,
+        "lineSpacingTitle": 0,
+        "subTitle": "Подзаголовок",
+        "fontSizeSubtitle": 10,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "bottom",
+        "textAlign": "right"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
+      "duration": 60,
+      "storyText": {
+        "textColor": "00FFFF",
+        "title": "",
+        "fontSizeTitle": 12,
+        "lineSpacingTitle": 0,
+        "subTitle": "Подзаголовок",
+        "fontSizeSubtitle": 10,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "bottom",
+        "textAlign": "right"
+      },
+      "storyButton": {
+        "text": "Текст кнопки",
+        "textColor": "FF00FF",
+        "buttonColor": "FFFF00",
+        "url": "https://www.youtube.com/watch?v=gke69PitnHk"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
+      "duration": 60,
+      "storyText": {
+        "textColor": "800000",
+        "title": "",
+        "fontSizeTitle": 12,
+        "lineSpacingTitle": 0,
+        "subTitle": "Подзаголовок",
+        "fontSizeSubtitle": 10,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "right"
+      },
+      "storyButton": {
+        "text": "",
+        "textColor": "FF00FF",
+        "buttonColor": "008000",
+        "url": "https://www.youtube.com/watch?v=gke69PitnHk"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_9(png).png",
+      "duration": 10,
+      "storyText": {
+        "textColor": "0000FF",
+        "title": "",
+        "fontSizeTitle": 12,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 10,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "right"
+      },
+      "storyButton": {
+        "text": "ТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопки",
+        "textColor": "FFFF00",
+        "buttonColor": "008000",
+        "url": "https://www.youtube.com/watch?v=gke69PitnHk"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_10(jpeg).jpg",
+      "duration": 10,
+      "storyText": {
+        "textColor": "000080",
+        "title": "",
+        "fontSizeTitle": 12,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 10,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "right"
+      }
+    },
+    {
+      "imageUrl": "",
+      "duration": 10,
+      "storyText": {
+        "textColor": "0",
+        "title": "",
+        "fontSizeTitle": 12,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 10,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "right"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_12(png_no_back).png",
+      "duration": 10,
+      "storyText": {
+        "textColor": "0",
+        "title": "",
+        "fontSizeTitle": 12,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 10,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "right"
+      }
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10(GIF)-screen13(GIF).gif.mp4",
+      "duration": 10,
+      "storyText": {
+        "textColor": "0",
+        "title": "",
+        "fontSizeTitle": 12,
+        "lineSpacingTitle": 0,
+        "subTitle": "",
+        "fontSizeSubtitle": 10,
+        "lineSpacingSubtitle": 0,
+        "sizeBetweenTitles": 0,
+        "textPosition": "top",
+        "textAlign": "right"
+      }
+    }
+  ],
+  "accessLevel": "allUsers"
+ }
+ ] 
