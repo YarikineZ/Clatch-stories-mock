@@ -7,20 +7,38 @@ class AccessLevel(str, Enum):
     onlyClatchTeam = "onlyClatchTeam"
     allUsers = "allUsers"
 
+class TextAlign(str, Enum):
+    left = "left"
+    center = "center"
+    right = "right"
+
+class TextPosition(str, Enum):
+    top = "top"
+    middle = "middle"
+    bottom = "bottom"
 
 class StoryPreviewText(BaseModel):
+    id: Optional[int]
     textColor: Optional[str]
     title: Optional[str]
     subTitle: Optional[str]
     sizeBetweenTitles: Optional[float]
 
+    class Config:
+        orm_mode = True
+
 
 class StoryPreview(BaseModel):
+    id: Optional[int]
     previewImageUrl: str
     previewText: Optional[StoryPreviewText]
 
+    class Config:
+        orm_mode = True
 
-class StoryTextBase(BaseModel):
+
+class StoryText(BaseModel):
+    id: Optional[int]
     textColor: Optional[str]
     title: Optional[str]
     fontSizeTitle: Optional[float]
@@ -29,38 +47,45 @@ class StoryTextBase(BaseModel):
     fontSizeSubtitle: Optional[float]
     lineSpacingSubtitle: Optional[float]
     sizeBetweenTitles: Optional[float]
-    textPosition: Optional[str]
-    textAlign: Optional[str]
+    textPosition: Optional[TextPosition]
+    textAlign: Optional[TextAlign]
+
+    class Config:
+        orm_mode = True
 
 
 class StoryButton(BaseModel):
+    id: Optional[int]
     text: str
     textColor: Optional[str]
     buttonColor: Optional[str]
     url: str
 
 
+    class Config:
+        orm_mode = True
+
+    def __str__(self):
+        return f"StoryButton(text={self.text}, textColor={self.textColor}, buttonColor={self.buttonColor}, url={self.url})"
+
+
+
 class StoryScreen(BaseModel):
+    id: Optional[int]
     imageUrl: str
     duration: Optional[int]
-    storyText: StoryTextBase
+    storyText: StoryText
     storyButton: StoryButton
 
 
-class StoryBase(BaseModel):
+
+class Story(BaseModel):
+    id: Optional[int]
     progressBarColor: str
     statusBarColor: str
     accessLevel: Optional[AccessLevel]
     storyScreens: List[StoryScreen]
-    preview: StoryPreview
-
-
-class StoryCreate(StoryBase):
-    pass
-
-class Story(StoryBase):
-    id: int
-
+    storyPreview: StoryPreview
 
     class Config:
         orm_mode = True

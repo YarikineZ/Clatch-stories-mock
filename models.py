@@ -6,7 +6,7 @@ from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 
 
-class StoryPreviewText(Base):
+class PreviewText(Base):
     __tablename__ = "StoryPreviewText"
 
     id = Column(Integer, primary_key=True)
@@ -16,7 +16,7 @@ class StoryPreviewText(Base):
     sizeBetweenTitles = Column(Float)
 
     storyPreview_id = Column(Integer, ForeignKey('storyPreview.id'))
-    storyPreview = relationship("StoryPreview", back_populates="storyPreviewText")
+    storyPreview = relationship("StoryPreview", back_populates="previewText")
 
 
 
@@ -26,7 +26,7 @@ class StoryPreview(Base):
     id = Column(Integer, primary_key=True)
     previewImageUrl  = Column(String)
 
-    storyPreviewText = relationship("StoryPreviewText", back_populates="storyPreview")
+    previewText = relationship("PreviewText", back_populates="storyPreview")
     story_id = Column(Integer, ForeignKey('story.id'))
     story = relationship("Story", back_populates="storyPreview")
 
@@ -62,6 +62,9 @@ class StoryButton(Base):
     storyScreen_id = Column(Integer, ForeignKey('storyScreen.id'))
     storyScreen = relationship("StoryScreen", back_populates="storyButton")
 
+    def __repr__(self):
+        return f"<DB StoryButton(id={self.id}, text={self.text}, textColor={self.textColor}, buttonColor={self.buttonColor}, url={self.url})>"
+
 
 class StoryScreen(Base):
     __tablename__ = "storyScreen"
@@ -75,13 +78,18 @@ class StoryScreen(Base):
 
     story = relationship("Story", back_populates="storyScreens")
 
- 
+
+
 class Story(Base):
     __tablename__ = "story"
 
     id = Column(Integer, primary_key=True, index=True)
     progressBarColor = Column(String)
     statusBarColor = Column(String)
-    storyPreview = relationship("StoryPreview", back_populates="story")
-    storyScreens = relationship("StoryScreen", back_populates="story")
     accessLevel = Column(String) 
+    storyScreens = relationship("StoryScreen", back_populates="story")
+    storyPreview = relationship("StoryPreview", back_populates="story")
+
+
+    def __repr__(self):
+        return f"<DB Story(id={self.id}, progressBarColor={self.progressBarColor}, statusBarColor={self.statusBarColor}, accessLevel={self.accessLevel})>"

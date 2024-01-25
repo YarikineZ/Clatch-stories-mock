@@ -1,4 +1,5 @@
-﻿from fastapi import FastAPI, Depends
+﻿from typing import List
+from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 from sqlmodel import create_engine, Session, select
 
@@ -18,7 +19,7 @@ def get_db():
 app = FastAPI()
 
 @app.post("/story/")
-def create_story(storyData: schemes.StoryCreate, db: Session = Depends(get_db)):
+def create_story(storyData: schemes.Story, db: Session = Depends(get_db)):
     db_story = models.Story(**storyData.dict(exclude={"preview", "storyScreens"}))
     db.add(db_story)
 
@@ -42,7 +43,29 @@ def create_story(storyData: schemes.StoryCreate, db: Session = Depends(get_db)):
     db.refresh(db_story)
     return db_story
 
-@app.get("/story/{user_id}", response_model=schemes.StoryCreate)
-def read_story(user_id: int, db: Session = Depends(get_db)):
-    story = db.execute(select(models.Story).where(models.Story.id == user_id)).first()
-    return story
+@app.get("/all_stories/", response_model=schemes.Story)
+def get_all_stories(db: Session = Depends(get_db))  -> List[schemes.Story]:
+    stories = db.execute(select(models.Story)).all()
+    if stories is None:         #TODO добавить none в серриализатор
+        return None
+    return [schemes.Story.from_orm(story) for story in stories]
+
+
+@app.get("/story/", response_model=schemes.Story)
+def get_story(story_id: int, db: Session = Depends(get_db)):
+    story = db.execute(select(models.Story).where(models.Story.id == story_id)).first()
+    if story is None:
+        raise HTTPException(status_code=404, detail="Story not found")
+    print(schemes.Story.from_orm(story))
+    return schemes.Story.from_orm(story)
+
+@app.get("/story-button/", response_model=schemes.Story)
+def get_storyButton(storyButton_id: int, db: Session = Depends(get_db)):
+    storyButton = db.execute(select(models.StoryButton).where(models.StoryButton.id == storyButton_id)).first()
+    print(storyButton)
+    print(schemes.StoryButton.from_orm(storyButton))
+    if storyButton is None:
+        raise HTTPException(status_code=404, detail="Story Button not found")
+    return schemes.StoryButton.from_orm(storyButton)
+
+
