@@ -14,7 +14,7 @@
       {
         "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
         "duration": 15,
-        "storyText": {
+        "ScreenText": {
           "textColor": "",
           "title": "",
           "fontSizeTitle": 0,
@@ -45,7 +45,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "",
         "title": "",
         "fontSizeTitle": 0,
@@ -61,7 +61,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "",
         "title": "",
         "fontSizeTitle": 0,
@@ -92,7 +92,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "",
         "title": "",
         "fontSizeTitle": 0,
@@ -108,7 +108,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "",
         "title": "",
         "fontSizeTitle": 0,
@@ -124,7 +124,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "",
         "title": "",
         "fontSizeTitle": 0,
@@ -155,7 +155,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "",
         "title": "",
         "fontSizeTitle": 0,
@@ -167,7 +167,7 @@
         "textPosition": "top",
         "textAlign": "left"
       },
-      "storyButton": {
+      "ScreenButton": {
         "text": "",
         "textColor": "",
         "buttonColor": "",
@@ -192,7 +192,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "",
         "title": "",
         "fontSizeTitle": 0,
@@ -204,7 +204,7 @@
         "textPosition": "top",
         "textAlign": "left"
       },
-      "storyButton": {
+      "ScreenButton": {
         "text": "string",
         "textColor": "string",
         "buttonColor": "string",
@@ -229,7 +229,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "",
         "title": "",
         "fontSizeTitle": 0,
@@ -241,7 +241,7 @@
         "textPosition": "top",
         "textAlign": "left"
       },
-      "storyButton": {
+      "ScreenButton": {
         "text": "",
         "textColor": "",
         "buttonColor": "",
@@ -268,7 +268,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "",
         "title": "",
         "fontSizeTitle": 0,
@@ -280,7 +280,7 @@
         "textPosition": "top",
         "textAlign": "left"
       },
-      "storyButton": {
+      "ScreenButton": {
         "text": "",
         "textColor": "",
         "buttonColor": "",
@@ -307,7 +307,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "",
         "title": "",
         "fontSizeTitle": 0,
@@ -319,7 +319,7 @@
         "textPosition": "top",
         "textAlign": "left"
       },
-      "storyButton": {
+      "ScreenButton": {
         "text": "",
         "textColor": "",
         "buttonColor": "",
@@ -346,7 +346,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "000000",
         "title": "ЗLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non vulputate arcu. Nulla ante eros, egestas non nulla eget, volutpat dapibus nisl. Donec sit amet viverra lacus, vitae ornare risus.",
         "fontSizeTitle": 12,
@@ -362,7 +362,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "000000",
         "title": "sLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non vulputate arcu. Nulla ante eros, egestas non nulla eget, volutpat dapibus nisl. Donec sit amet viverra lacus, vitae ornare risus.",
         "fontSizeTitle": 12,
@@ -378,7 +378,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "000000",
         "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non vulputate arcu. Nulla ante eros, egestas non nulla eget, volutpat dapibus nisl. Donec sit amet viverra lacus, vitae ornare risus.",
         "fontSizeTitle": 36,
@@ -394,7 +394,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "000000",
         "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacus dui, faucibus ac mauris et, vestibulum ullamcorper massa. Aenean mauris lacus, pharetra in tellus quis, interdum imperdiet nunc. Aenean interdum sem a est mattis, ut molestie ligula varius. In tellus risus, dapibus vitae dolor id, aliquet imperdiet lacus. Mauris facilisis nibh velit, vel molestie arcu condimentum sodales. Morbi scelerisque ut felis ut dapibus. Ut ut volutpat augue, eget maximus risus. Mauris at auctor ante. Cras varius varius ullamcorper. Ut in pulvinar arcu. Aliquam congue velit nec magna dapibus, et tempor massa ornare. Suspendisse potenti. Maecenas vitae ipsum quis nulla condimentum.",
         "fontSizeTitle": 36,
@@ -427,7 +427,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
       "duration": 5,
-      "storyText": {
+      "ScreenText": {
         "textColor": "",
         "title": "",
         "fontSizeTitle": 0,
@@ -439,7 +439,7 @@
         "textPosition": "top",
         "textAlign": "left"
       },
-      "storyButton": {
+      "ScreenButton": {
         "text": "Кнопка",
         "textColor": "000080",
         "buttonColor": "FFFFFF",
@@ -449,7 +449,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
       "duration": 10,
-      "storyText": {
+      "ScreenText": {
         "textColor": "FFFFFF",
         "title": "Заголовок",
         "fontSizeTitle": 0,
@@ -465,7 +465,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
       "duration": 15,
-      "storyText": {
+      "ScreenText": {
         "textColor": "FF00FF",
         "title": "Заголовк",
         "fontSizeTitle": 12,
@@ -481,7 +481,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
       "duration": 20,
-      "storyText": {
+      "ScreenText": {
         "textColor": "FF0000",
         "title": "",
         "fontSizeTitle": 12,
@@ -497,7 +497,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
       "duration": 25,
-      "storyText": {
+      "ScreenText": {
         "textColor": "FFFF00",
         "title": "Заголовок",
         "fontSizeTitle": 12,
@@ -509,7 +509,7 @@
         "textPosition": "bottom",
         "textAlign": "center"
       },
-      "storyButton": {
+      "ScreenButton": {
         "text": "",
         "textColor": "",
         "buttonColor": "000000",
@@ -519,7 +519,7 @@
     {
         "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
         "duration": 30,
-      "storyText": {
+      "ScreenText": {
         "textColor": "008000",
         "title": "Заголовок",
         "fontSizeTitle": 12,
@@ -535,7 +535,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
       "duration": 60,
-      "storyText": {
+      "ScreenText": {
         "textColor": "00FFFF",
         "title": "",
         "fontSizeTitle": 12,
@@ -547,7 +547,7 @@
         "textPosition": "bottom",
         "textAlign": "right"
       },
-      "storyButton": {
+      "ScreenButton": {
         "text": "Текст кнопки",
         "textColor": "FF00FF",
         "buttonColor": "FFFF00",
@@ -557,7 +557,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_1-8.svg",
       "duration": 60,
-      "storyText": {
+      "ScreenText": {
         "textColor": "800000",
         "title": "",
         "fontSizeTitle": 12,
@@ -569,7 +569,7 @@
         "textPosition": "top",
         "textAlign": "right"
       },
-      "storyButton": {
+      "ScreenButton": {
         "text": "",
         "textColor": "FF00FF",
         "buttonColor": "008000",
@@ -579,7 +579,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_9(png).png",
       "duration": 10,
-      "storyText": {
+      "ScreenText": {
         "textColor": "0000FF",
         "title": "",
         "fontSizeTitle": 12,
@@ -591,7 +591,7 @@
         "textPosition": "top",
         "textAlign": "right"
       },
-      "storyButton": {
+      "ScreenButton": {
         "text": "ТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопкиТекстКнопки",
         "textColor": "FFFF00",
         "buttonColor": "008000",
@@ -601,7 +601,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_10(jpeg).jpg",
       "duration": 10,
-      "storyText": {
+      "ScreenText": {
         "textColor": "000080",
         "title": "",
         "fontSizeTitle": 12,
@@ -617,7 +617,7 @@
     {
       "imageUrl": "",
       "duration": 10,
-      "storyText": {
+      "ScreenText": {
         "textColor": "0",
         "title": "",
         "fontSizeTitle": 12,
@@ -633,7 +633,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen_12(png_no_back).png",
       "duration": 10,
-      "storyText": {
+      "ScreenText": {
         "textColor": "0",
         "title": "",
         "fontSizeTitle": 12,
@@ -649,7 +649,7 @@
     {
       "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10(GIF)-screen13(GIF).gif.mp4",
       "duration": 10,
-      "storyText": {
+      "ScreenText": {
         "textColor": "0",
         "title": "",
         "fontSizeTitle": 12,
