@@ -7,38 +7,20 @@ class AccessLevel(str, Enum):
     onlyClatchTeam = "onlyClatchTeam"
     allUsers = "allUsers"
 
-class TextAlign(str, Enum):
-    left = "left"
-    center = "center"
-    right = "right"
-
-class TextPosition(str, Enum):
-    top = "top"
-    middle = "middle"
-    bottom = "bottom"
 
 class StoryPreviewText(BaseModel):
-    id: Optional[int]
     textColor: Optional[str]
     title: Optional[str]
     subTitle: Optional[str]
     sizeBetweenTitles: Optional[float]
 
-    class Config:
-        orm_mode = True
-
 
 class StoryPreview(BaseModel):
-    id: Optional[int]
     previewImageUrl: str
     previewText: Optional[StoryPreviewText]
 
-    class Config:
-        orm_mode = True
 
-
-class StoryText(BaseModel):
-    id: Optional[int]
+class StoryTextBase(BaseModel):
     textColor: Optional[str]
     title: Optional[str]
     fontSizeTitle: Optional[float]
@@ -47,45 +29,47 @@ class StoryText(BaseModel):
     fontSizeSubtitle: Optional[float]
     lineSpacingSubtitle: Optional[float]
     sizeBetweenTitles: Optional[float]
-    textPosition: Optional[TextPosition]
-    textAlign: Optional[TextAlign]
-
-    class Config:
-        orm_mode = True
+    textPosition: Optional[str]
+    textAlign: Optional[str]
 
 
 class StoryButton(BaseModel):
-    id: Optional[int]
     text: str
     textColor: Optional[str]
     buttonColor: Optional[str]
     url: str
 
 
+class StoryScreen(BaseModel):
+    imageUrl: str
+    duration: Optional[int]
+    storyText: StoryTextBase
+    storyButton: StoryButton
+
     class Config:
         orm_mode = True
 
-    def __str__(self):
-        return f"StoryButton(text={self.text}, textColor={self.textColor}, buttonColor={self.buttonColor}, url={self.url})"
 
-
-
-class StoryScreen(BaseModel):
-    id: Optional[int]
-    imageUrl: str
-    duration: Optional[int]
-    storyText: StoryText
-    storyButton: StoryButton
-
-
-
-class Story(BaseModel):
-    id: Optional[int]
+class StoryBase(BaseModel):
     progressBarColor: str
     statusBarColor: str
     accessLevel: Optional[AccessLevel]
     storyScreens: List[StoryScreen]
-    storyPreview: StoryPreview
+    preview: StoryPreview
+
+
+
+class StoryCreate(StoryBase):
+    pass
+
+class Story(StoryBase):
+    id: Optional[int]
+
+    # progressBarColor: Optional[str]
+    # statusBarColor: Optional[str]
+    # accessLevel: Optional[AccessLevel]
+    # storyScreens: Optional[List[StoryScreen]]
+    # preview: Optional[StoryPreview]
 
     class Config:
         orm_mode = True
