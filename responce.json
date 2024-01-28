@@ -12,7 +12,7 @@
     },
     "storyScreens": [
       {
-        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1_Screen_1.svg",
         "duration": 15,
         "StoryText": {
           "textColor": "",
@@ -43,7 +43,7 @@
   },
   "storyScreens": [
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_2_Screen_1.svg",
       "duration": 15,
       "StoryText": {
         "textColor": "",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_2_Screen_2.svg",
       "duration": 15,
       "StoryText": {
         "textColor": "",
@@ -90,7 +90,7 @@
   },
   "storyScreens": [
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_3_Screen_1.svg",
       "duration": 15,
       "StoryText": {
         "textColor": "",
@@ -106,7 +106,7 @@
       }
     },
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_3_Screen_2.svg",
       "duration": 15,
       "StoryText": {
         "textColor": "",
@@ -122,7 +122,7 @@
       }
     },
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_3_Screen_3.svg",
       "duration": 15,
       "StoryText": {
         "textColor": "",
@@ -153,7 +153,7 @@
   },
   "storyScreens": [
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_4-8_Screen_1.svg",
       "duration": 15,
       "StoryText": {
         "textColor": "",
@@ -190,7 +190,7 @@
   },
   "storyScreens": [
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_4-8_Screen_1.svg",
       "duration": 15,
       "StoryText": {
         "textColor": "",
@@ -227,7 +227,7 @@
   },
   "storyScreens": [
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_4-8_Screen_1.svg",
       "duration": 15,
       "StoryText": {
         "textColor": "",
@@ -266,7 +266,7 @@
   },
   "storyScreens": [
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_4-8_Screen_1.svg",
       "duration": 15,
       "StoryText": {
         "textColor": "",
@@ -305,7 +305,7 @@
   },
   "storyScreens": [
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_4-8_Screen_1.svg",
       "duration": 15,
       "StoryText": {
         "textColor": "",
@@ -344,23 +344,23 @@
   },
   "storyScreens": [
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_9_Screen_1.jpeg",
       "duration": 15,
       "StoryText": {
         "textColor": "000000",
         "title": "ЗLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non vulputate arcu. Nulla ante eros, egestas non nulla eget, volutpat dapibus nisl. Donec sit amet viverra lacus, vitae ornare risus.",
         "fontSizeTitle": 12,
-        "lineSpacingTitle": 0,
+        "lineSpacingTitle": 12,
         "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non vulputate arcu. Nulla ante eros, egestas non nulla eget, volutpat dapibus nisl. Donec sit amet viverra lacus, vitae ornare risus.",
         "fontSizeSubtitle": 12,
-        "lineSpacingSubtitle": 0,
-        "sizeBetweenTitles": 0,
+        "lineSpacingSubtitle": 12,
+        "sizeBetweenTitles": 12,
         "textPosition": "top",
         "textAlign": "center"
       }
     },
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_9_Screen_2.jpeg",
       "duration": 15,
       "StoryText": {
         "textColor": "000000",
@@ -376,7 +376,7 @@
       }
     },
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_9_Screen_3.jpeg",
       "duration": 15,
       "StoryText": {
         "textColor": "000000",
@@ -392,7 +392,7 @@
       }
     },
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_1-3_Screen_1_1-2_1-3.svg",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_9_Screen_4.jpeg",
       "duration": 15,
       "StoryText": {
         "textColor": "000000",
@@ -452,7 +452,7 @@
       "StoryText": {
         "textColor": "FFFFFF",
         "title": "Заголовок",
-        "fontSizeTitle": 0,
+        "fontSizeTitle": 12,
         "lineSpacingTitle": 0,
         "subTitle": "",
         "fontSizeSubtitle": 0,
@@ -523,11 +523,11 @@
         "textColor": "008000",
         "title": "Заголовок",
         "fontSizeTitle": 12,
-        "lineSpacingTitle": 0,
+        "lineSpacingTitle": 12,
         "subTitle": "Подзаголовок",
         "fontSizeSubtitle": 10,
-        "lineSpacingSubtitle": 0,
-        "sizeBetweenTitles": 0,
+        "lineSpacingSubtitle": 10,
+        "sizeBetweenTitles": 11,
         "textPosition": "bottom",
         "textAlign": "right"
       }
@@ -647,7 +647,7 @@
       }
     },
     {
-      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10(GIF)-screen13(GIF).gif",
+      "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/Json_4_PreV_10_Screen13(GIF).gif",
       "duration": 10,
       "StoryText": {
         "textColor": "0",
