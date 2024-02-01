@@ -249,7 +249,7 @@
           "textAlign": "left"
         },
         "storyButton": {
-          "text": "Дима, сколько символов?",
+          "text": "Lorem ipsum dolor sit amet, co",
           "textColor": "008000",
           "buttonColor": "FFFF00",
           "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -297,11 +297,91 @@
         "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/J5P6S1-7.svg",
         "duration": 35,
         "storyText": {
-          "textColor": "800080",
+          "textColor": "00FF00",
           "title": "",
           "fontSizeTitle": 30,
           "lineSpacingTitle": 0,
           "subTitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis nat",
+          "fontSizeSubtitle": 20,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "top",
+          "textAlign": "left"
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/J5P6S8.svg",
+        "duration": 5,
+        "storyText": {
+          "textColor": "FFFF00",
+          "title": "",
+          "fontSizeTitle": 30,
+          "lineSpacingTitle": 0,
+          "subTitle": "",
+          "fontSizeSubtitle": 20,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "top",
+          "textAlign": "left"
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/J5P6S9.svg",
+        "duration": 5,
+        "storyText": {
+          "textColor": "FFFF00",
+          "title": "Lorem ipsum dolor sit amet, consectetuer adip",
+          "fontSizeTitle": 30,
+          "lineSpacingTitle": 0,
+          "subTitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis nat",
+          "fontSizeSubtitle": 20,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "top",
+          "textAlign": "left"
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/J5P6S10.svg",
+        "duration": 5,
+        "storyText": {
+          "textColor": "FFFF00",
+          "title": "Lorem ipsum dolor sit amet, consectetuer adip",
+          "fontSizeTitle": 30,
+          "lineSpacingTitle": 0,
+          "subTitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis nat",
+          "fontSizeSubtitle": 20,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "top",
+          "textAlign": "left"
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/J5P6S11.svg",
+        "duration": 5,
+        "storyText": {
+          "textColor": "FFFF00",
+          "title": "Lorem ipsum dolor sit amet, consectetuer adip",
+          "fontSizeTitle": 30,
+          "lineSpacingTitle": 0,
+          "subTitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis nat",
+          "fontSizeSubtitle": 20,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "top",
+          "textAlign": "left"
+        }
+      },
+      {
+        "imageUrl": "",
+        "duration": 5,
+        "storyText": {
+          "textColor": "800080",
+          "title": "",
+          "fontSizeTitle": 30,
+          "lineSpacingTitle": 0,
+          "subTitle": "",
           "fontSizeSubtitle": 20,
           "lineSpacingSubtitle": 0,
           "sizeBetweenTitles": 0,
