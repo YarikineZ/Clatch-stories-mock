@@ -391,5 +391,98 @@
       }
     ],
     "accessLevel": "allUsers"
+  },
+  {
+    "id": 7,
+    "progressBarColor": "000000",
+    "statusBarColor": "dark",
+    "preview": {
+      "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/J5P7.svg",
+      "previewText": {
+        "textColor": "000000",
+        "title": "Lorem ipsum dolor sit amet, co",
+        "subTitle": "",
+        "sizeBetweenTitles": 0
+      }
+    },
+    "storyScreens": [
+      {
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/J5P7S1.svg",
+        "duration": 5,
+        "storyText": {
+          "textColor": "000000",
+          "title": "Обменивайтесь данными цикла с близкими",
+          "fontSizeTitle": 30,
+          "lineSpacingTitle": 0,
+          "subTitle": "С партнёром, подругой или врачом",
+          "fontSizeSubtitle": 20,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "top",
+          "textAlign": "left"
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/J5P7S2.svg",
+        "duration": 5,
+        "storyText": {
+          "textColor": "000000",
+          "title": "Скажем прямо и за вас",
+          "fontSizeTitle": 30,
+          "lineSpacingTitle": 0,
+          "subTitle": "Напомним близким, когда вам особенно нужна забота",
+          "fontSizeSubtitle": 20,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "top",
+          "textAlign": "left"
+        },
+        "storyButton": {
+          "text": "Оставить отзыв",
+          "textColor": "000000",
+          "buttonColor": "FFFFFF",
+          "url": "ссылка на отзыв"
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/J5P7S3.svg",
+        "duration": 5,
+        "storyText": {
+          "textColor": "000000",
+          "title": "Мы с тобой одной крови",
+          "fontSizeTitle": 30,
+          "lineSpacingTitle": 0,
+          "subTitle": "Менструация бывает не только у людей и приматов — ещё она бывает у летучих мышей и слоновых землероек",
+          "fontSizeSubtitle": 20,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "buttom",
+          "textAlign": "left"
+        },
+        "storyButton": {
+          "text": "Оставить отзыв",
+          "textColor": "000000",
+          "buttonColor": "FFFFFF",
+          "url": "ссылка на отзыв"
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/J5P7S4.svg",
+        "duration": 5,
+        "storyText": {
+          "textColor": "000000",
+          "title": "Мы с тобой одной крови",
+          "fontSizeTitle": 30,
+          "lineSpacingTitle": 0,
+          "subTitle": "Менструация бывает не только у людей и приматов — ещё она бывает у летучих мышей и слоновых землероек",
+          "fontSizeSubtitle": 20,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "buttom",
+          "textAlign": "left"
+        }
+      }
+    ],
+    "accessLevel": "allUsers"
   }
 ]
