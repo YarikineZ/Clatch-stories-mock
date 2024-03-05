@@ -4,6 +4,7 @@ from fastapi import Depends, FastAPI, HTTPException, Query
 from sqlmodel import Field, Relationship, Session, SQLModel, create_engine, select
 from models import *
 
+
 # http://127.0.0.1:8000/docs
 # uvicorn main:app --reload
 
@@ -32,9 +33,16 @@ def on_startup():
 
 
 
-
 @app.get("/stories/all", response_model=List[StoryRead])
-def read_stories(*, session: Session = Depends(get_session)):
+def read_all_stories(*, session: Session = Depends(get_session)):
     stories = session.exec(select(Story)).all()
     return stories
 
+
+@app.post("/story/", response_model=Story)
+def create_story(*, session: Session = Depends(get_session), story: StoryCreate):
+    db_story = Story.model_validate(story)
+    session.add(db_story)
+    session.commit()
+    session.refresh(db_story)
+    return db_story

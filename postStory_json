@@ -1,0 +1,32 @@
+﻿{
+"progressBarColor": "000000",
+    "statusBarColor": "dark",
+    "preview": {
+      "previewImageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/J5P1.svg",
+      "previewText": {
+        "textColor": "000000",
+        "title": "Lorem ipsum dolor sit amet, co",
+        "subTitle": "",
+        "sizeBetweenTitles": 0
+      }
+    },
+    "storyScreens": [
+      {
+        "imageUrl": "https://raw.githubusercontent.com/YarikineZ/Clatch-stories-mock/main/assets/J5P1S1.svg",
+        "duration": 5,
+        "storyText": {
+          "textColor": "000000",
+          "title": "Lorem ipsum dolor sit amet, consectetuer adip",
+          "fontSizeTitle": 30,
+          "lineSpacingTitle": 0,
+          "subTitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis nat",
+          "fontSizeSubtitle": 20,
+          "lineSpacingSubtitle": 0,
+          "sizeBetweenTitles": 0,
+          "textPosition": "top",
+          "textAlign": "left"
+        }
+      }
+    ],
+    "accessLevel": "allUsers"
+}
